@@ -11,5 +11,9 @@
 2. When network stack is deleted, execute command- aws cloudformation delete-stack --stack-name networkinfra
 
 ## URL verifying servers are running properly
+
 ![Screenshot 2025-03-02 124718](https://github.com/user-attachments/assets/24bb5ad4-0855-43eb-b69c-d4ed31413b1d)
+
+---
+
 ![Screenshot 2025-03-02 124747](https://github.com/user-attachments/assets/5992a2eb-1904-47a6-926e-2956102605ed)
