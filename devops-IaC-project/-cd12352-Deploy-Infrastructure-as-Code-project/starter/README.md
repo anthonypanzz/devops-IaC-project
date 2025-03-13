@@ -1,5 +1,4 @@
-# CD12352 - Infrastructure as Code Project Solution
-# Anthony Panzarella
+![Alt text](devops-IaC-diagram.drawio.png)
 
 # Deploy a High-Availability Web App Using CloudFormation
 
