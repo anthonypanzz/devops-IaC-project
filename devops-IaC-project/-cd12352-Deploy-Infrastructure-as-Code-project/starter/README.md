@@ -44,7 +44,7 @@ The Application Load Balancer (ALB) is exposed to the internet on port 80 and ro
 A public-read S3 bucket is used for storing static content. The EC2 instances have an IAM role allowing read and write permissions to the bucket.
 
 # CloudFormation Templates
-Networking Stack
+Networking Stack-
 The networking stack contains resources to set up the VPC, subnets, internet gateway, and NAT gateways.
 
 # Outputs:
@@ -53,14 +53,14 @@ VPC ID
 Subnet IDs
 These outputs are imported into the application stack to set the correct VPC and subnets for the resources.
 
-Application Stack
+Application Stack-
 The application stack contains resources specific to the application, including:
 
 EC2 instances
 Application Load Balancer
 Auto Scaling Group
 S3 Bucket
-Security Groups
+Security Groups-
 The stack uses outputs from the networking stack to configure the correct VPC and subnets.
 
 # Output:
@@ -97,12 +97,12 @@ It works! Udagram, Udacity
 Requirements
 
 # Parameters
-Use as many parameters as necessary, but try to keep them manageable (ideally not too many).
-Example: CIDR blocks for VPC, subnet configurations, etc.
-Resources
+CIDR blocks for VPC, subnet configurations.
+Resources-
 EC2 Instances: Should meet the minimum requirements (t2.micro or better).
 Load Balancer: Must be configured with a Target Group, Health Check, and Listener.
-Conclusion
+
+# Conclusion
 This README outlines the necessary steps for deploying a high-availability web application using CloudFormation. The infrastructure includes networking resources, EC2 instances in an Auto Scaling group, an Application Load Balancer, and an S3 bucket for static content. CloudFormation templates, security group configurations, and automation scripts are provided to facilitate the creation and deletion of the entire infrastructure.
 
 
