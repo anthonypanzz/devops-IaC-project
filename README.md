@@ -5,7 +5,8 @@ This project involves deploying a high-availability web application using AWS Cl
 
 # Infrastructure Diagram
 
-![Alt text](devops-IaC-diagram.jpg)
+![devops-IaC-diagram](https://github.com/user-attachments/assets/a52489ec-834e-4620-8df7-d27bd6590dda)
+
 
 An infrastructure diagram has been created to illustrate the AWS resources involved in this project. The diagram includes the following resources:
 
