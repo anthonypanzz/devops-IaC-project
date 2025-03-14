@@ -5,7 +5,8 @@
 This project involves deploying a high-availability web application using AWS CloudFormation. The infrastructure setup includes network resources, EC2 instances, a Load Balancer, S3 buckets, security groups, and auto-scaling for the web servers. The goal is to create a scalable solution that serves static content, provides redundancy, and ensures high availability.
 
 # Infrastructure Diagram
-![Alt text](devops-IaC-diagram.drawio.png)
+![devops-IaC-diagram](https://github.com/user-attachments/assets/d50cbbec-0f50-483f-b445-71e94b5fa616)
+
 
 An infrastructure diagram has been created to illustrate the AWS resources involved in this project. The diagram includes the following resources:
 
