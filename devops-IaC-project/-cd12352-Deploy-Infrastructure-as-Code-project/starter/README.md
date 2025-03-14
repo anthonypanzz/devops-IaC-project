@@ -108,21 +108,10 @@ Allow inbound traffic from any source (0.0.0.0/0) on port 80.
 Scripts for Automation
 Automation scripts are provided to create and destroy the infrastructure without UI interaction. The scripts can be written in Bash or Python (Boto3), and they use the CloudFormation CLI to deploy the templates.
 
-# Deployment Script Example (Bash)
-bash
-Copy
-#!/bin/bash
-aws cloudformation deploy --template-file network-stack.yaml --stack-name my-network-stack --capabilities CAPABILITY_IAM
-aws cloudformation deploy --template-file app-stack.yaml --stack-name my-app-stack --capabilities CAPABILITY_IAM --parameter-overrides VPCID=<vpc-id> SubnetIDs=<subnet-ids>
-Working Test
-After deploying the infrastructure, you can test the setup by visiting the public URL of the Load Balancer.
-
+# Deployment
 If the infrastructure is set up correctly, you should see the following message on the webpage:
-
 nginx
-Copy
 It works! Udagram, Udacity
-Requirements
 
 # Parameters
 CIDR blocks for VPC, subnet configurations.
